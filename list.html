@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>优品集-列表</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/css/index.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet/css/list.css">
+</head>
+<body>
+	<div class="header-wrap">
+		<header>
+			<div class="web-logo">
+				<a href="javascript:;"><img src="img/logo.png"></a>
+			</div>
+			<div class="header-area">
+				<div class="user-area">
+					<ul>
+						<li class="download-app">
+							<a href="javascript:;" title="下载app"></a>
+							<div class="erweima">
+								<img src="img/app_code.png"/>
+								<span></span>
+							</div>
+						</li>
+						<li class="shopping-bag none">
+							<a href="shoppingCar.html" title="购物袋"></a>
+						</li>
+						<li class="user-center none">
+							<a href="javascript:;" title="个人中心"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="search-area">
+					<p>
+						<input type="text" placeholder="搜索"  name="search-content"/>
+						<span id="search-btn">
+							<img src="img/search.png"/>
+						</span>
+					</p>
+					<ul id="hot-list">
+						<li><a href="javascript:;">洗发</a></li>
+						<li><a href="javascript:;">餐碗</a></li>
+						<li><a href="javascript:;">日本</a></li>
+						<li><a href="javascript:;">女神</a></li>
+						<li><a href="javascript:;">洗发</a></li>
+						<li><a href="javascript:;">餐碗</a></li>
+						<li><a href="javascript:;">日本</a></li>
+						<li><a href="javascript:;">女神</a></li>
+						<li><a href="javascript:;">洗发</a></li>
+						<li><a href="javascript:;">餐碗</a></li>
+						<li><a href="javascript:;">日本</a></li>
+						<li><a href="javascript:;">女神</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+	</div>
+	<div id="nav-bar" class="nav-bar-wrap">
+		<!-- <div id="nav-bar" class="nav-bar"> -->
+		<div class="nav-bar">
+			<ul class="nav-bar-top">
+				<li><a href="javascript:;">首页</a></li>
+				<li><a href="javascript:;">新品</a></li>
+				<li><a class="have" href="javascript:;">美味餐厨</a></li>
+				<li><a class="have" href="javascript:;">家纺家饰</a></li>
+				<li><a class="have" href="javascript:;">生活日用</a></li>
+				<li><a class="have" href="javascript:;">健康美体</a></li>
+				<li><a class="have" href="javascript:;">文具数码</a></li>
+				<li><a href="javascript:;">品牌</a></li>
+			</ul>
+			<span class="web-im">联系客服</span>
+			<a href="javascript:;" class="scroll-shop"></a>
+			<div class="nav-bar-cont">
+				<ul>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+				</ul>
+				<ul>
+					<li><a href="javascript:;">家纺</a></li>
+					<li><a href="javascript:;">装饰</a></li>
+				</ul>
+				<ul>
+					<li><a href="javascript:;">清洁</a></li>
+					<li><a href="javascript:;">收纳</a></li>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+				</ul>
+				<ul>
+					<li><a href="javascript:;">口腔护理</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+				</ul>
+				<ul>
+					<li><a href="javascript:;">笔记手账</a></li>
+					<li><a href="javascript:;">办公收纳</a></li>
+					<li><a href="javascript:;">贺卡</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+					<li><a href="javascript:;">烹饪锅具</a></li>
+					<li><a href="javascript:;">吃货专列</a></li>
+					<li><a href="javascript:;">耳机/音箱</a></li>
+					<li><a href="javascript:;">DIY素材</a></li>
+				</ul>
+			</div>
+			
+		</div><!-- <h2></h2> -->
+	</div>
+	<div class="activity-goods">
+		<div class="seckill-time">
+			<img src="img/seckill_time1.png"/>
+			<span>距离本场结束
+				<strong id="hour_show">00</strong>&nbsp;:
+				<strong id="minute_show">00</strong>&nbsp;:
+				<strong id="second_show">00</strong>
+			</span>
+		</div>
+		<div class="activity-goods-list">
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty1.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="details.html">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty1.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty1.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty2.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl class="none">
+				<dt>
+					<a href="javascript:;"><img src="img/activty2.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty1.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty2.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty4.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+		</div>
+		<div class="seckill-time">
+			<img src="img/seckill_time2.png"/>
+			<span>距离本场结束
+				<strong id="hour">00</strong>&nbsp;:
+				<strong id="minute">00</strong>&nbsp;:
+				<strong id="second">00</strong>
+			</span>
+		</div>
+		<div class="activity-goods-list">
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty1.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty1.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty1.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty2.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl class="none">
+				<dt>
+					<a href="javascript:;"><img src="img/activty2.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty1.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty2.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub" href="javascript:;">立即购买</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<div class="active_label sell_out">
+						<p></p>
+						<span>已售罄</span>
+					</div>
+					<a href="javascript:;"><img src="img/activty3.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">ZUCCHI素绮[意大利]</a></h2>
+					<p><a href="javascript:;">乔薇床品四件套 250*220cm</a></p>
+					<div>
+						<b>￥999.00</b>
+						<a class="itemSub no" href="javascript:;">已售罄</a>
+					</div>
+				</dd>
+			</dl>
+		</div>
+		<div class="seckill-time">
+			<img src="img/seckill_time3.png"/>
+			<span>距离本场开始
+				<strong id="hour_show1">00</strong>&nbsp;:
+				<strong id="minute_show1">00</strong>&nbsp;:
+				<strong id="second_show1">00</strong>
+			</span>
+		</div>
+		<div class="activity-goods-list">
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty6.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub beginim" href="javascript:;">即将开始</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty5.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub beginim" href="javascript:;">即将开始</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty6.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub beginim" href="javascript:;">即将开始</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty5.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub beginim" href="javascript:;">即将开始</a>
+					</div>
+				</dd>
+			</dl>
+			<dl class="none">
+				<dt>
+					<a href="javascript:;"><img src="img/activty5.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub beginim" href="javascript:;">即将开始</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty5.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub beginim" href="javascript:;">即将开始</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty6.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub beginim" href="javascript:;">即将开始</a>
+					</div>
+				</dd>
+			</dl>
+			<dl>
+				<dt>
+					<a href="javascript:;"><img src="img/activty6.jpg"/></a>
+				</dt>
+				<dd>
+					<h2><a href="javascript:;">NOMO北欧国度[中国]</a></h2>
+					<p><a href="javascript:;">北欧国度 动物鹿头壁挂</a></p>
+					<div>
+						<b>￥92.00</b>
+						<a class="itemSub beginim" href="javascript:;">即将开始</a>
+					</div>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<div class="footer-wrap">
+		<footer>
+			<ul class="footer-help">
+				<li><a href="javascript:;" class="about-upj">关于优品集</a></li>
+				<li><a href="javascript:;" class="shopping-guid">购物指南</a></li>
+				<li><a href="javascript:;" class="noti">消费者告知书</a></li>
+				<li><a href="javascript:;" class="common-pro">常见问题</a></li>
+			</ul>
+			<div class="website-information">
+				<p>
+					<span class="first">客服电话 4000-788-738</span>
+					<span>优集品© 2011-2016</span>
+					<span>北京优集品网络科技有限公司</span>
+					<span>京ICP备11028595号 </span>
+					<span class="last">京公网安备110105011117</span>
+				</p>
+				<p style="margin-top: 10px;">
+					<span class="first">公司地址：北京市朝阳区华腾世纪总部公园E2座6层601B</span>
+					<span>统一社会信用代码：91110105576857306R </span>
+
+					<span class="last">食品经营许可证编码：</span>
+				</p>
+				<dl>
+					<dt>关注优品集</dt>
+					<dd class="weichat">
+						<div class="erweima">
+							<img src="img/app_code.png"/>
+							<span></span>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/xid.js"></script>
+<script type="text/javascript" src="js/serhenav.js"></script>
+<script type="text/javascript">
+    //倒计时
+    var intDiff = parseInt(160000);//倒计时总秒数量
+	function timer(intDiff){
+		window.setInterval(function(){
+			var day=0,
+				hour=0,
+				minute=0,
+				second=0;//时间默认值		
+			if(intDiff > 0){
+				hour = Math.floor(intDiff / (60 * 60)) - (day * 24);
+				minute = Math.floor(intDiff / 60) - (day * 24 * 60) - (hour * 60);
+				second = Math.floor(intDiff) - (day * 24 * 60 * 60) - (hour * 60 * 60) - (minute * 60);
+			}
+			if (minute <= 9) minute = '0' + minute;
+			if (second <= 9) second = '0' + second;
+			$('#hour_show').html('<s id="h"></s>'+hour);
+			$('#minute_show').html('<s></s>'+minute);
+			$('#second_show').html('<s></s>'+second);
+
+
+			$('#hour').html('<s id="h"></s>'+hour);
+			$('#minute').html('<s></s>'+minute);
+			$('#second').html('<s></s>'+second);
+
+			$('#hour_show1').html('<s id="h"></s>'+hour);
+			$('#minute_show1').html('<s></s>'+minute);
+			$('#second_show1').html('<s></s>'+second);
+			intDiff--;
+		}, 1000);
+	} 
+	$(function(){
+		timer(intDiff);
+	});	
+</script>
